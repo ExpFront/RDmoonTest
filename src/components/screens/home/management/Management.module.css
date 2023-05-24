@@ -1,0 +1,21 @@
+.management {
+	margin-top: 20px;
+}
+
+.button {
+	background: none;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	padding: 5px 8px;
+	cursor: pointer;
+	transition: background 0.1s ease;
+}
+
+.button:hover {
+	background: #ffffff14;
+}
+
+.button:not(:first-of-type) {
+	margin-left: 20px;
+}
