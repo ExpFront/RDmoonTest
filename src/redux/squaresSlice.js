@@ -5,9 +5,9 @@ export const squaresSlice = createSlice({
 	initialState: [],
 	reducers: {
 		add: (state, { payload }) => {
-			state.push({
-				id: state.length,
+			state.unshift({
 				color: payload.color,
+				name: payload.color,
 			})
 		},
 		remove: state => {
