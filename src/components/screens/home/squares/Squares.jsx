@@ -30,4 +30,4 @@ const Squares = () => {
 	)
 }
 
-export default React.memo(Squares)
+export default Squares
